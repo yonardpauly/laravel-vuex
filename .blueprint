@@ -1,0 +1,6 @@
+created:
+    - database/migrations/2020_05_31_112011_create_tasks_table.php
+    - app/Task.php
+    - database/factories/TaskFactory.php
+models:
+    Task: { title: string, description: 'text nullable' }

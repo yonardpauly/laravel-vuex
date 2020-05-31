@@ -1,0 +1,4 @@
+models:
+  Task:
+    title: string
+    description: text nullable
