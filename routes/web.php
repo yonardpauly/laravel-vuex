@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $pizzas = ['pizza1', 'pizza2'];
+
+    return view('welcome', compact('pizzas'));
 });
